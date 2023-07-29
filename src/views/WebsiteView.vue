@@ -1,4 +1,5 @@
 <template>
+  <meta http-equiv="Refresh" content="0; url='https://yjangwynter.com'" />
   <div class="website">
     <h1>Redirecting to https://yjangwynter.com</h1>
   </div>

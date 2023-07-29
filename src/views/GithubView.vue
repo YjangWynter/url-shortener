@@ -1,4 +1,5 @@
 <template>
+            <meta http-equiv="Refresh" content="0; url='https://github.com/YjangWynter'" />
     <div class="website">
       <h1>Redirecting to Github...</h1>
     </div>
