@@ -12,8 +12,8 @@ defineProps({
     <h1 class="green">{{ msg }}</h1>
     <h3>
       This is a small url shortener project I made to learn more about Vue.js & Vite because I like the color green. Here is
-      my website: <a href="https://vitejs.dev/" target="_blank" rel="noopener">yjangwynter.com</a> + my
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Github</a>.
+      my website: <a href="https://yjangwynter.com" target="_blank" rel="noopener">yjangwynter.com</a> + my
+      <a href="https://github.com/YjangWynter" target="_blank" rel="noopener">Github</a>.
     </h3>
   </div>
 </template>
