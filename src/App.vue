@@ -1,6 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import HomeView from './views/HomeView.vue';
 </script>
 
 <template>
@@ -11,14 +12,26 @@ import HelloWorld from './components/HelloWorld.vue'
       <HelloWorld msg="Yjang's URL Shortener" />
     </div>
   </header>
+<HomeView/>
 
-  <RouterView />
 </template>
 
 <style scoped>
+main{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
 header {
   line-height: 1.5;
   max-height: 100vh;
+}
+img{
+  display: flex;
+  max-width: 25vw;
+  align-items: center; 
+  justify-content: center;
 }
 
 .logo {
