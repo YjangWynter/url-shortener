@@ -27,6 +27,12 @@ const router = createRouter({
       name:'github',
       component: () => import('../views/GithubView.vue')
     },
+    {
+      path:'/discord',
+      name:'discord',
+      component: () => import('../views/DiscordView.vue')
+    },
+
     { //Not Found
       path: '/:pathMatch(.*)*', 
       name:'NotFound', 
