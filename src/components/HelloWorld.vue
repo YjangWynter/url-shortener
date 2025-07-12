@@ -26,6 +26,10 @@ h1 {
   top: -10px;
 }
 
+p{
+  margin: 2rem;
+}
+
 h3 {
   font-size: 1.2rem;
 }
